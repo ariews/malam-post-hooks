@@ -35,7 +35,7 @@ class Malam_Post_Hook
      */
     public static function run()
     {
-        if (self::is_allowed())
+        if ($this->is_allowed())
         {
             $this->log('Post Hook Start');
 
