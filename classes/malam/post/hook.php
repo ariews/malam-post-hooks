@@ -33,7 +33,7 @@ class Malam_Post_Hook
     /**
      * Run the hook
      */
-    public static function run()
+    public function run()
     {
         if ($this->is_allowed())
         {
